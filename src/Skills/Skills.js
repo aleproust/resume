@@ -1,6 +1,6 @@
 import React from "react";
+import ProgressBar from '../ProgressBar/ProgressBar';
 import "./Skills.css";
-import ProgressBar from '../ProgressBar/ProgressBar'
 const Skills = () => {
 
     const skills = [{
@@ -28,9 +28,9 @@ const Skills = () => {
         value: '85%'
     }]
         return (<div className="Skills">
-            {skills.map(({title, value})=> {
+            {skills.map(({title, value}, index)=> {
                 return (
-                    <div className="Skills__item">
+                    <div key={index} className="Skills__item">
                         <h3>{title}</h3>
                         <ProgressBar value={value}></ProgressBar>
                     </div>

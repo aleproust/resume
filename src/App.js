@@ -33,12 +33,13 @@ class App extends Component {
               <About></About>  
             </div>
             <div className="Page__section">
+              <Title text="Skills"></Title>
               <Skills></Skills>
             </div>
             <div className="Page__section">
               <Title text="Experiences"></Title>
-              {experiences.map(({range, company, title, description}) => 
-              (<Experience range={range} company={company} title={title} description={description}></Experience>))}
+              {experiences.map(({range, company, title, description}, index) => 
+              (<Experience key={index} range={range} company={company} title={title} description={description}></Experience>))}
             </div>
             
           </div>
