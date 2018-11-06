@@ -1,0 +1,8 @@
+.Title {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-weight: 300;
+    color: gray;
+}

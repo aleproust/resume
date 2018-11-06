@@ -1,0 +1,50 @@
+.Header {
+    background: gray;
+  }
+  
+  .Header__banner {
+    background-color: #666;
+    background-image: url("/assets/img/banner.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    color: #fff;
+    padding: 8em 0 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Header__logo {
+    border-radius: 50%;
+    height: 13rem;
+    filter: none;
+  }
+  
+  .Header__name {
+    font-size: 3.4rem;
+    font-weight: normal;
+  }
+  
+  .Header__job {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .Header__banner {
+      padding: 6em 0 8em;
+    }
+  }
+  
+  @media only screen and (min-width: 650px) {
+    .Header__banner {
+      padding: 6em 0 8em;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .Header__banner {
+      padding: 6em 0 8em;
+    }
+  }

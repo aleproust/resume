@@ -1,0 +1,10 @@
+.Skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 13rem;
+}
+
+.Skills__item {
+    width: 40%;
+}
