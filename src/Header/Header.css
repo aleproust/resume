@@ -4,7 +4,7 @@
   
   .Header__banner {
     background-color: #666;
-    background-image: url("/static/img/banner.jpg");
+    background-image: url("/resume/static/img/banner.jpg");
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
