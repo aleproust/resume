@@ -1,5 +1,6 @@
 .Education {
     display: flex;
+    min-width: 5rem;
     align-items: center;
 }
 
