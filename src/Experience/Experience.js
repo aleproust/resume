@@ -1,7 +1,7 @@
 
 import React from "react";
 import './Experience.css';
-const Experience = ({range, company, title, description}) =>{
+const Experience = ({range, company, title, place, description}) =>{
     return (
     <div className="Experience">
         <div className="Experience__left">
@@ -10,6 +10,9 @@ const Experience = ({range, company, title, description}) =>{
             </div>
             <div className="Experience__company">
                 {company}
+            </div>
+            <div className="Experience__place">
+                <i class="fas fa-map-marker-alt"></i> {place}
             </div>
         </div>
     <div className="Experience__right">

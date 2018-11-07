@@ -1,0 +1,31 @@
+.Education {
+    display: flex;
+    align-items: center;
+}
+
+.Education__left{
+    text-align: center;
+}
+
+.Education__range{
+    padding: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.Education__right {
+    padding: 1rem;
+}
+
+.Education__icon{
+    font-size: 3rem;
+    color: grey;
+}
+
+.Education__title{
+    font-size: 1.4rem;
+}
+
+.Education__school,
+.Education__title{
+    margin: 0.4rem 0;
+}

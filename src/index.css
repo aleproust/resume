@@ -28,6 +28,7 @@ body {
 
 a,
 a:visited {
+  text-decoration: none;
   color: var(--neutral-darker);
 }
 
